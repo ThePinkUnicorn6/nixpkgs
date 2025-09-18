@@ -3769,6 +3769,7 @@ with pkgs;
   openrgb-with-all-plugins = openrgb.withPlugins [
     openrgb-plugin-effects
     openrgb-plugin-hardwaresync
+    openrgb-plugin-visualmap
   ];
 
   opensshPackages = dontRecurseIntoAttrs (callPackage ../tools/networking/openssh { });
