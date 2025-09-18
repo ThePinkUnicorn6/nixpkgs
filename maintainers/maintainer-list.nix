@@ -25678,6 +25678,11 @@
     githubId = 11761863;
     name = "Theo Paris";
   };
+  thepinkunicorn = {
+    name = "ThePinkUnicorn";
+    github = "ThePinkUnicorn6";
+    githubId = 76398214;
+  };
   thepuzzlemaker = {
     name = "ThePuzzlemaker";
     email = "tpzker@thepuzzlemaker.info";
