@@ -24,18 +24,18 @@ stdenv.mkDerivation (finalAttrs: {
     rm -r OpenRGB
     ln -s ${openrgb.src} OpenRGB
   '';
-  
+
   nativeBuildInputs = with libsForQt5; [
     qmake
     pkg-config
     wrapQtAppsHook
   ];
-  
+
   buildInputs = with libsForQt5; [
     qtbase
     glib
   ];
-  
+
   meta = with lib; {
     homepage = "https://gitlab.com/OpenRGBDevelopers/OpenRGBVisualMapPlugin";
     description = "OpenRGB plugin for grouping and organizing devices on a spatial map";
